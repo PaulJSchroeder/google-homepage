@@ -1,0 +1,1 @@
+This is a project to copy the google homepage to the best of my ability using HTML and CSS.
