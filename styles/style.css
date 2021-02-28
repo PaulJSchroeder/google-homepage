@@ -1,6 +1,7 @@
 
 #container {
     font-family: helvetica;
+    font-size: 14px;
     min-width: 950px;
     width: 100%;
 }
@@ -121,4 +122,32 @@ img, input {
     color: white;
     background-color: rgb(57, 136, 253);
     margin: -5px 0px 0px 0px;
+}
+.footer-holder {
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(240, 240, 240);
+    border-top: solid rgb(206, 206, 206) 0.5px;
+}
+.footer-left {
+    margin-left: 18px;
+    margin-top: 12px;
+}
+.footer-right {
+    float: right;
+    margin-right: 18px;
+    margin-top: -15px;
+    
+}
+.footer-left a, .footer-right a {
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    padding: 12px;
+}
+.footer-left a:hover, .footer-right a:hover {
+    text-decoration: underline;
 }
