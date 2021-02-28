@@ -11,11 +11,11 @@ img, input {
 .searchbar {
     position: relative;
     margin: auto;
-    width: 475px;
+    width: 480px;
     height: 45px;
 }
 #searchbar {
-    width: 475px;
+    width: 480px;
     height: 45px;
     font-size: 15px;
     border: solid rgb(196, 196, 196) 0.75px;
@@ -46,12 +46,18 @@ img, input {
     padding: 10px 17px 10px 17px;
     margin: 8px;
     outline: none;
-    border: none;
-    border-radius: 3px;
+    border: solid white 1px;
+    border-radius: 5px;
     background-color: rgb(240, 240, 240);
     font-family: helvetica;
     font-size: 14px;
     opacity: 0.72;
+    cursor: pointer;
+}
+.search-buttons button:hover {
+    opacity: 1;
+    border: solid rgb(194, 194, 194) 1px;
+    box-shadow: 0px 1.5px 1px rgb(231, 231, 231);
 }
 .search-buttons {
     display: flex;
