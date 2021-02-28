@@ -84,10 +84,12 @@ img, input {
     position: relative;
     display: flex;
     flex-direction: row-reverse;
-    width: 230px;
+    width: 250px;
     float: right;
     margin-top: -155px;
+    margin-right: 10px;
     justify-content: space-evenly;
+    z-index: 1;
 }
 .navbar a, .navbar-right a {
     padding: 3px;
@@ -98,4 +100,25 @@ img, input {
 }
 .navbar a:hover, .navbar-right a:hover {
     text-decoration: underline;
+}
+.navbar-right img {
+    z-index: 2;
+    display: block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    opacity: 0.55;
+}
+.navbar-right img:hover {
+    opacity: 1;
+}
+#signin {
+    padding: 7px 12px 7px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(57, 136, 253);
+    margin: -5px 0px 0px 0px;
 }
