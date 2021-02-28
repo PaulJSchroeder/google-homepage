@@ -1,0 +1,10 @@
+
+img, input {
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.logo {
+    margin-top: 175px;
+    padding: 25px;
+}
